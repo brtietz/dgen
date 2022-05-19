@@ -54,7 +54,7 @@ Next, clone the forked repository to your local machine by running the following
 ### A. Create Environment
 After cloning this repository and installing (and running) Docker as well as Anaconda, we'll create our environment and container:
 
-1. Depending on directory you cloned this repo into, navigate in terminal to the python directory (/../dgen/python) and run the following command:
+1. Depending on directory you cloned this repo into, navigate in terminal to the python directory (/../dgen/dgen_os/python) and run the following command:
 
 ```$ conda env create -f dg3n.yml```
 
