@@ -59,6 +59,7 @@ After cloning this repository and installing (and running) Docker as well as Ana
 ```$ conda env create -f dg3n.yml```
 
 - This will create the conda environment needed to run the dgen model.
+  - If the "solving environment" step runs slowly (more than a few minutes) run ```conda config --set channel_priority strict``` prior to creating the conda environment.
 
 2. This command will create a container with PostgreSQL initialized.
 
