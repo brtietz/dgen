@@ -87,7 +87,7 @@ Notes:
 - The container id can be gotten by running ```$ docker container ls```. If this doesn't display anything try running ```$ docker container ps```.
 - If you get the error ``` psql: FATAL:  the database system is starting up ``` try rerunning the docker exec command again after a minute or so because docker can take some time to initialize everything.
 - ```CREATE DATABASE``` will be printed when the database is created. ```\l``` will display the databases in your server.
-
+- ```\q``` is the command to exit the database from the terminal
 
 ### B. Download data (agents and database):
 Download data by navigating to https://data.openei.org/submissions/1931 and clicking the 'model inputs' tab. Make sure to unzip any zipped files once downloaded. Note, the 13.5 GB dgen_db.sql.zip file contains all of the data for national level runs. We recommend starting with the database specific to the state or ISO region you're interested in. 
